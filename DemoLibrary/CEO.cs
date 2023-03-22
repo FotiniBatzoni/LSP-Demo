@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public class Class1
+    public class CEO
     {
+        public string FirstName { get; set; }   
+        public string LastName { get; set; }
+
     }
 }
