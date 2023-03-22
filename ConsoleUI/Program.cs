@@ -18,7 +18,7 @@ namespace ConsoleUI
             emp.FirstName = "Tim";
             emp.LastName = "Barton";
             emp.AssignManager(accountingVP);
-            emp.CalulatePerHourRate(2);
+            emp.CalculatePerHourRate(2);
 
             Console.WriteLine($"{emp.FirstName}'s salary is ${emp.Salary}/hour");
 
