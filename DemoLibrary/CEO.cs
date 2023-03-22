@@ -24,5 +24,10 @@ namespace DemoLibrary
         {
             Console.WriteLine("I'm reviewing a direct report's performance");
         }
+
+        public void FireSomeone()
+        {
+            Console.WriteLine("You're Fired!");
+        }
     }
 }
