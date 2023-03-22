@@ -7,13 +7,13 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            Manager accountingVP = new Manager();
+            IManager accountingVP = new Manager();
 
             accountingVP.FirstName = "Emma";
             accountingVP.LastName = "Stone";
             accountingVP.CalculatePerHourRate(4);
 
-            Employee emp = new Manager();
+            IManaged emp = new Employee();
 
             emp.FirstName = "Tim";
             emp.LastName = "Barton";
