@@ -13,7 +13,7 @@ namespace ConsoleUI
             accountingVP.LastName = "Stone";
             accountingVP.CalculatePerHourRate(4);
 
-            IManaged emp = new Employee();
+            IManaged emp = new Manager();
 
             emp.FirstName = "Tim";
             emp.LastName = "Barton";
