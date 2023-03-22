@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public class Employee : BaseEmployee
+    public class Employee : BaseEmployee , IManaged
     {
-        public Employee Manager { get; set; } = null;
+        public IEmployee Manager { get; set; } = null;
 
 
-        public virtual void AssignManager(Employee manager)
+        public virtual void AssignManager(IEmployee manager)
         {
             Manager = manager;
         }
